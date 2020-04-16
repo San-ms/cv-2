@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  /* Se cambia el margin aquí para reescribir los valores default del browser
+  Cuando unsamos 0 no se necesita especificar la unidad.*/
+  text-align: center;
+  /*Aquí se especifica el estilo de la fuente que se quiere usar como cuerpo de texto*/
+  font-family: 'Merriweather', serif;
+  color: #8C6046;
+}
+
+hr {
+  height: 0;
+  width: 4%;
+  border-color: #EAF6F6;
+  border-style: dotted none none;
+  border-width: 5px;
+  margin: 100px auto;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  /* Se cambia el margin aquí para reescribir los valores default del browser*/
+  /*Aquí se especifica el estilo de la fuente que se quiere usar*/
+  font-family: 'Rammetto One', cursive;
+  font-size: 3rem;
+  color: #D94436;
+}
+
+h2 {
+  /*Aquí se especifica el estilo de la fuente que se quiere usar*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 200%;
+  color: #D94436;
+}
+
+h3 {
+  /*Aquí se especifica el estilo de la fuente que se quiere usar*/
+  font-family: 'Montserrat', sans-serif;
+  color: #D95D30;
+}
+
+div {
+  margin-top: 0;
+}
+
+a {
+  color: #D95D30;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+    line-height: 2;
+}
+
+/*********** CLASS SELECTORS*********/
+.top-container {
+  background-color: #F2C5BB;
+  padding-top: 100px;
+  /* se adiciona padding para que el contenido del container baje pero el background-color se mantega igual*/
+  position: relative;
+}
+
+.middle-container {
+  padding: 100px 0;
+}
+
+.intro {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.Profile-picture {
+  width: 300px;
+}
+
+
+.silkscreen {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.carteles {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.bottom-container {
+  margin: 0;
+  padding: 50px 0 20px;
+  background-color: #F2C5BB;
+}
+
+.contact-me {
+  margin: 0 auto;
+}
+
+.contact-me-text {
+    margin: 40px auto 60px;
+    width: 50%;
+}
+
+.BUTTON_LJW {
+   -webkit-border-radius: 98px;
+   -moz-border-radius: 98px;
+   border-radius: 98px;
+   color: #FFFFFF;
+   font-family: Montserrat;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 14px;
+   background-color: #D95D30;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_LJW:hover {
+   background: #F2C5BB;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+.copy-right-text{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
